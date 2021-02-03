@@ -1,0 +1,27 @@
+-- DROP DATABASE cars;
+
+CREATE DATABASE cars;
+
+USE cars;
+
+CREATE TABLE car_type (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+make VARCHAR (255),
+fav_car VARCHAR (255),
+model VARCHAR (255),
+year_made INT
+);
+
+CREATE TABLE books (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR (255),
+publish_date INT,
+author_name VARCHAR (255)
+);
+
+CREATE TABLE movies(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR (255),
+release_date INT,
+rating INT
+);
